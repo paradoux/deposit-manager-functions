@@ -2,7 +2,7 @@ require("dotenv").config()
 const ethers = require("ethers")
 const faunadb = require("faunadb")
 const q = faunadb.query
-const factoryContractAbi = require("../smart-contract/VaultFactory.json")
+const factoryContractAbi = require("../../smart-contract/VaultFactory.json")
 
 exports.handler = async (event, context) => {
   // var customHttpProvider = new ethers.providers.JsonRpcProvider(
