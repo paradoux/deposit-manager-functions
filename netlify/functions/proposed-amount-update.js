@@ -1,5 +1,4 @@
 const faunadb = require("faunadb")
-const getId = require("./utils/getParam")
 const q = faunadb.query
 
 exports.handler = (event, context) => {
