@@ -11,7 +11,8 @@
     "bootstrap": "netlify dev:exec node ./scripts/bootstrap-fauna-database.js",
     "docs": "md-magic --path '**/*.md' --ignore 'node_modules'",
     "start": "netlify dev",
-    "prebuild": "echo 'setup faunaDB' && npm run bootstrap"
+    "prebuild": "echo 'setup faunaDB' && npm run bootstrap",
+    "build": "netlify build"
   },
   "browserslist": [
     ">0.2%",
