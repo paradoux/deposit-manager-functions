@@ -1,0 +1,7 @@
+[build]
+	command = "echo 'default context'"
+	functions = "netlify/functions"
+  publish = "public/"
+  
+[functions]
+  node_bundler = "esbuild"
