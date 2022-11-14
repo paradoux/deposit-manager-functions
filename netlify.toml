@@ -1,8 +1,0 @@
-[build]
-  base = "deposit-manager-functions/"
-	command = "echo 'default context'"
-	functions = "netlify/functions"
-  publish = "build-output/"
-  
-[functions]
-  node_bundler = "esbuild"
