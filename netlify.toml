@@ -1,7 +1,7 @@
 [build]
-	command = "# no build command"
+	command = "echo 'default context'"
 	functions = "netlify/functions"
+  publish = "build-output/"
   
 [functions]
   node_bundler = "esbuild"
-
