@@ -1,7 +1,7 @@
 require("dotenv").config()
 const ethers = require("ethers")
-const factoryContractAbi = require("../../../smart-contract/VaultFactory.json")
-const implementationContractAbi = require("../../../smart-contract/VaultImplementation.json")
+const factoryContractAbi = require("../../smart-contract/VaultFactory.json")
+const implementationContractAbi = require("../../smart-contract/VaultImplementation.json")
 const marshalVaultDetails = require("./utils/marshal")
 
 exports.handler = async (event, context) => {
