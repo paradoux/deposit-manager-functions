@@ -12,6 +12,6 @@ module.exports = function marshalVaultDetails(vault) {
     isDepositStored: vault.isDepositStored,
     isAmountAccepted: vault.isAmountAccepted,
     isRenterChunkReturned: vault.isRenterChunkReturned,
-    isOwnerChunkReturned: vault.isOwnerChunkReturned
+    isOwnerChunkReturned: vault.isOwnerChunkReturned,
   }
 }
